@@ -1,4 +1,6 @@
-﻿namespace xUnit_Test_Zoo;
+﻿using Classes_Practice_Zoo;
+
+namespace xUnit_Test_Zoo;
 
 public class UnitTest1
 {
