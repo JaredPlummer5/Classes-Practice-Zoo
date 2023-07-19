@@ -5,7 +5,7 @@ namespace Classes_Practice_Zoo.Classes
 	{
 		public string Hair;
 
-		public abstract void Walk();
+	
 		
 	}
 }

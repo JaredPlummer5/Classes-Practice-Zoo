@@ -23,10 +23,7 @@ namespace Classes_Practice_Zoo.Classes
             Console.WriteLine("Grrrrr");
         }
 
-        public override void Walk()
-        {
-            Console.WriteLine("I'm a rhino and I'm walking");
-        }
+        
     }
 }
 

@@ -11,9 +11,11 @@
   <ItemGroup>
     <None Remove="Classes\" />
     <None Remove="Classes\Abstract\" />
+    <None Remove="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
     <Folder Include="Classes\Abstract\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 </Project>

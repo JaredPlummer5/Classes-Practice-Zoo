@@ -1,13 +1,17 @@
 ﻿using System;
+using Classes_Practice_Zoo.Interfaces;
+
 namespace Classes_Practice_Zoo.Classes
 {
-	public class Monkey : Mammal
+	public class Monkey : Mammal, IWalks
 	{
 		public Monkey()
 		{
 		}
 
-		public void ClimbingTree()
+        public int Legs { get ; set; }
+
+        public void ClimbingTree()
 		{
 
 			Console.WriteLine("THe monkey is climbing the tree");
@@ -24,9 +28,10 @@ namespace Classes_Practice_Zoo.Classes
 
 		}
 
-        public override void Walk()
+        public void Walk()
         {
-			Console.WriteLine("Walking on my paws");
+			Legs = 4;
+			Console.WriteLine("Walking on my paws with {0} legs", Legs);
         }
     }
 }
